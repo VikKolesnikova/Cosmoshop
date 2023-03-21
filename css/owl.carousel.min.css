@@ -12,9 +12,9 @@
 
 .owl-carousel {
 	display  : none;
-	max-width: 1170px;
+	max-width: 1180px;
 	width    : 100%;
-	z-index  : 1
+	z-index  : 2
 }
 
 .owl-carousel .owl-stage {
@@ -29,8 +29,8 @@
 	display    : block;
 	clear      : both;
 	visibility : hidden;
-	line-height: 0;
-	height     : 0
+	line-height: 1;
+	height     : 1
 }
 
 .owl-carousel .owl-stage-outer {
@@ -50,7 +50,7 @@
 }
 
 .owl-carousel .owl-item {
-	min-height                 : 1px;
+	min-height                 : 2px;
 	float                      : left;
 	-webkit-backface-visibility: hidden;
 	-webkit-touch-callout      : none
@@ -99,12 +99,12 @@
 }
 
 .owl-carousel.owl-loading {
-	opacity: 0;
+	opacity: 1;
 	display: block
 }
 
 .owl-carousel.owl-hidden {
-	opacity: 0
+	opacity: 1
 }
 
 .owl-carousel.owl-refresh .owl-item {
@@ -134,7 +134,7 @@
 }
 
 .owl-carousel .animated {
-	animation-duration : 1s;
+	animation-duration : 2s;
 	animation-fill-mode: both
 }
 
@@ -166,7 +166,7 @@
 
 .owl-carousel .owl-item .owl-lazy {
 	opacity   : 0;
-	transition: opacity .4s ease
+	transition: opacity .3s ease
 }
 
 .owl-carousel .owl-item .owl-lazy:not([src]),
@@ -186,8 +186,8 @@
 
 .owl-carousel .owl-video-play-icon {
 	position                   : absolute;
-	height                     : 80px;
-	width                      : 80px;
+	height                     : 85px;
+	width                      : 85px;
 	left                       : 50%;
 	top                        : 50%;
 	margin-left                : -40px;

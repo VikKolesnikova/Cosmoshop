@@ -8,20 +8,20 @@
 }
 
 .owl-dots {
-	margin-top: 20px
+	margin-top: 30px
 }
 
 .owl-dots .owl-dot {
 	display: inline-block;
-	zoom   : 1;
+	zoom   : 2;
 	outline: none;
 }
 
 .owl-dots .owl-dot span {
-	width        : 10px;
-	height       : 10px;
-	margin       : 5px 7px;
-	background   : grey;
+	width        : 12px;
+	height       : 12px;
+	margin       : 6px 9px;
+	background   : rgb(128, 128, 128);
 	display      : block;
 	transition   : opacity .2s ease;
 	border-radius: 30px
@@ -29,7 +29,7 @@
 
 .owl-dots .owl-dot.active span,
 .owl-dots .owl-dot:hover span {
-	background: #0a84ff;
+	background: #e20aff;
 }
 
 /**
@@ -61,11 +61,11 @@
 }
 
 .js-prev {
-	left: 0px;
+	left: 1px;
 }
 
 .js-next {
-	right: 0px;
+	right: 1px;
 }
 
 /**
